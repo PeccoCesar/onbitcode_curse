@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cadastro liga dos Astronautas</title>
+</head>
+<body>
+  <h3>Cadastro liga dos Astronautas</h3>
+  <form>
+    <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+  </div>
+  <br>
+  <div>
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email">
+    <label for="psw">- Password</label>
+    <input type="password" id="password" name="password">
+  </div>
+  <br>
+  <div>
+    <label for="date">Data de nascimento:</label>
+    <input type="date" id="date" name="date">
+    <label for="photo">- Envie uma foto sua:</label>
+    <input type="file" id="photo" name="photo">
+  </div>
+  <br>
+  <div>
+    <label for="nationality">Nacionalidade</label>
+    <select id="nationality" name="nationality">
+      <option value="russia">Russia</option>
+      <option value="american">American</option>
+      <option value="brazil">Brazil</option>
+    </select>
+    - Genero:
+    <input type="radio" id="masculino" name="genero" value="male">
+    <label for="masculino">M</label>
+    <input type="radio" id="feminno" name="genero" value="female">
+    <label for="genero">F</label>
+  </div>
+  <div>
+    <p>Suas principais qualidades:</p>
+    <input type="checkbox" id="inteligencia" name="inteligencia" value="inteligencia">
+    <label for="inteligencia">inteligência |</label>
+    <input type="checkbox" id="resiliencia" name="resiliencia" value="resilience">
+    <label for="resiliencia">Resiliência |</label>
+    <input type="checkbox" id="preparo_fisico" name="preparo_fisico">
+    <label for="preparo_fisico">Preparo físico |</label>
+    <input type="checkbox" id="educacao" name="educacao" value="educacao">
+    <label for="educacao">Educação |</label>
+  </div> 
+  <br> 
+  <div>
+    <textarea placeholder="Porque você quer ser um astronauta?" id="description" name="description" cols="30" rows="10" ></textarea>
+  </div>
+  <div>
+    <input type="submit" value="Enviar" >
+  </div>
+  </form>
+  <video>
+    <source src="">
+  </video>
+</body>
+</html>

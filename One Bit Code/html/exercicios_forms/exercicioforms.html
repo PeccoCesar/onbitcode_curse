@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cadastro liga dos Astronautas</title>
+</head>
+<body>
+  <h3>Cadastro liga dos astronautas</h3>
+  <form>
+        <label for="name">Nome:</label>
+          <input id="name" name="name" required type="text"><br> <br>
+              <label for="email">Email:</label>
+              <input name="mail" type="text" id="name">
+                  <label for="pws">- Password:</label>
+                  <input id="password" type="password" name="password"><br><br>
+                  <label for="data">Data de nascimento: </label>
+                  <input type="date" id="data" name="data">
+                  <label for="foto">- Foto</label>
+                  <input id="foto" name="foto" type="file" value="Escolher arquivo"><br><br>
+                  <label for="nacionalidade">Nacionalidade: </label>
+                  <input type="text" autocomplete="country">
+                  <label for="genero">- Genêro</label>
+                  <input type="radio" name="genero" id="masculuno">
+              <label for="masculino">M</label>
+              <input type="radio" name="genero" id="feminino">
+          <label for="feminino">F</label>
+          <p>Suas principais habilidades: </p>
+          <input type="checkbox" name="inteligencia" id="inteligencia" >
+        <label for="inteligencia">Inteligência  |</label>
+    <input type="checkbox" name="resiliencia" id="resiliencia">
+    <label for="reiliencia">Resiliencia  |</label>
+    <input type="checkbox" id="preparo_fisico" name="preparo_fisico">
+    <label for="preparo_fisico">Preparo físico |</label>
+    <input type="checkbox" id="educacao" name="educacao">
+    <label for="educacao">Educação |</label><br><br>
+    <input type="text" size="100x200"  placeholder="Porque você quer ser astronauta?">
+  </form>
+</body>
+</html>

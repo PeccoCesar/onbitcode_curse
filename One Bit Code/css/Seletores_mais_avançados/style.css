@@ -1,0 +1,10 @@
+li:nth-of-type(2){
+  color: hotpink;
+}
+
+h1 + h3{
+  color: aqua;
+}
+a[href="https://youtube.com"]{
+  color: blue;
+}

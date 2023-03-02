@@ -1,0 +1,27 @@
+.img-content{
+  width: 765px;
+  height: 400px;
+}
+*{
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+@media (max-width: 320px){
+  .img-content{
+    height: auto;
+    width: 100%;
+  }
+  .text-content{
+    text-align: center;
+  }
+}
+@media (max-width: 2560px){
+  .img-content{
+    height: auto;
+    width: 100%;
+  }
+  .text-content{
+    text-align: center;
+  }
+}

@@ -1,0 +1,43 @@
+body{
+  margin: 0px;
+  background-color: black;
+}
+.post-container h1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.post-container .date{
+  font-family: Roboto, sans-serif;
+  color: #008080;
+}
+.post-container{
+  width: 70%;
+  height: 100%;
+  margin: 0px auto 0px auto;
+  background-color: #fffafa;
+}
+.post-container .post{
+  width: 90%;
+  font-family: "Open Sans" , sans-serif;
+  font-weight: normal;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#primeiro_h1{
+  font-weight: 600;
+  font-family: "Montserrat";
+  font-size: 80px;
+  width: 50%;
+  margin: 10px auto 10px auto;
+  text-align: center;
+  color: white;
+}
+#red_dead_2{
+  color: white;
+  font-family: "Montserrat", Roboto, sans-serif;
+  background-image: url(./assets/download.jpeg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
